@@ -1,5 +1,5 @@
 # Lógica de Programação e Algoritmos com JavaScript 🚀
-Repositório destinado à resolução dos exercícios do livro de **Edécio Fernando Iepsen**.
+Repositório destinado à exemplos e resolução dos exercícios do livro de **Edécio Fernando Iepsen**.
 
 ## 📚 Progresso
 
