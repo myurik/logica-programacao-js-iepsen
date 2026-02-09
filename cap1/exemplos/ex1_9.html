@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 1.9 – Cálculo do valor do jantar</title>
+</head>
+<body>
+    
+</body>
+<script>
+    /*
+    c) Elaborar um programa que leia o valor de um jantar. Calcule e informe
+    o valor da taxa do garçom (10%) e o valor total a ser pago.
+    */
+   var valorJantar = Number(prompt("Valor do Jantar R$:"));
+   var taxaGarcom = valorJantar * 0.10;
+   var totalPagar = valorJantar + taxaGarcom;
+
+   alert('Valor do Jantar R$: ' + valorJantar.toFixed(2) + '\nTaxa do Garçom: ' + taxaGarcom.toFixed(2) + '\nTotal a Pagar: ' + totalPagar.toFixed(2));
+</script>
+</html>
