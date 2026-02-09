@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício c - Cap 1</title>
+</head>
+<body>
+    
+</body>
+<script>
+    /*
+    c) Elaborar um programa para uma loja, o qual leia o preço de um
+    produto e informe as opções de pagamento da loja. Calcule e informe o
+    valor para pagamento à vista com 10% de desconto e o valor em 3x.
+
+    Exemplo:
+    Preço R$: 60.00
+    À Vista R$: 54.00
+    Ou 3x de R$: 20.00
+    */
+    var precoProduto = Number(prompt("Preço R$:"));
+    var aVista = precoProduto * 0.10;
+    alert("Preço R$: " + precoProduto + "\nÀ Vista R$: " + (precoProduto - aVista) + "\nOu 3x de R$: " + (precoProduto/3).toFixed(2));
+</script>
+</html>
