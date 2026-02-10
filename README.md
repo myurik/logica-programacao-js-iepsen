@@ -3,7 +3,7 @@ Repositório destinado à exemplos e resolução dos exercícios do livro de **E
 
 ## 📚 Progresso
 
-- [ ] Capítulo 1: Introdução
+- [x] Capítulo 1: Introdução
 - [ ] Capítulo 2: Integração com HTML
 - [ ] Capítulo 3: Condicionais
 ...Loading ⌛
