@@ -6,18 +6,20 @@
     <title>Exemplo 2.2</title>
 </head>
 <body>
-    <!-- a) Elaborar um programa para uma Vídeo Locadora, que leia o título e a
-    duração de um lme em minutos. Exiba o título do lme e converta a
-    duração para horas e minutos, conforme destacado na Figura 2.7.-->
-    <h1>Vídeo Locadora</h1>
+    <!-- a) Elaborar um programa para um Cinema, que leia o título e a duração de um filme em minutos. Exiba o título do filme e converta a duração para horas e minutos.-->
+    <h1>Cine JS: Filmes em Cartaz</h1>
     <hr>
     <h2>Procurar Filmes</h2>
     <br>
-    <p>Título do Filme: <input type="text" id="inTitulo"></p>
-    <p>Duração (min): <input type="number" id="inDuracao"></p>
-    <input type="button" id="btConverter" value="Converter em Horas e Minutos">
-    <p id="outTitulo"> </p>
-    <p id="outResposta"> </p>
+    <form>
+        <p>Título do Filme: <input type="text" id="inTitulo" required></p>
+        <p>Duração (min): <input type="number" id="inDuracao" required></p>
+        <input type="submit" value="Converter em Horas e Minutos">
+    </form>
+    <h3 id="outTitulo"></h3>
+    <h4 id="outResposta"></h4>
+
+
+    <script src="./js/ex2_2.js"></script>
 </body>
-<script src="./js/ex2_2.js"></script>
 </html>

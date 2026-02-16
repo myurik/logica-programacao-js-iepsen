@@ -6,19 +6,19 @@
     <title>Exemplo 2.3</title>
 </head>
 <body>
-    <!--b) Elaborar um programa para uma revenda de veículos. O programa deve
-    ler modelo e preço do veículo. Apresentar como resposta o valor da
-    entrada (50%) e o saldo em 12x. A Figura 2.9 ilustra uma execução desse
-    programa.-->
+    <!--b) Elaborar um programa para uma revenda de veículos. O programa deve ler modelo e preço do veículo. Apresentar como resposta o valor da entrada (50%) e o saldo em 12x.  -->
     <h1>Revenda de Veículos JS</h1>
     <hr>
-    <p>Modelo do Veículo: <input type="text" id="inModeloVeiculo"></p>
-    <p>Preço (R$): <input type="text" id="inPreco"></p>
-    <p><input type="button" value="Ver Promoção" id="btVerPromocao"></p>
-
+    <form>
+        <p>Modelo do Veículo: <input type="text" id="inModeloVeiculo" required></p>
+        <p>Preço (R$): <input type="text" id="inPreco" required></p>
+        <p><input type="submit" value="Ver Promoção"></p>
+    </form>
+    
     <h3 id="outVeiculo"> </h3>
     <h3 id="outEntrada"> </h3>
     <h3 id="outParcela"> </h3>
+
+    <script src="./js/ex2_3.js"></script>
 </body>
-<script src="./js/ex2_3.js"></script>
 </html>

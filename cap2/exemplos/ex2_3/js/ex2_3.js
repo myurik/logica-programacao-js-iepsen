@@ -1,29 +1,29 @@
-function mostrarPromocao (){
-    
-    // Referência dos elementos HTML
-    let inModeloVeiculo = document.getElementById("inModeloVeiculo");
-    let inPreco = document.getElementById("inPreco");
-    let outVeiculo = document.getElementById("outVeiculo");
-    let outEntrada = document.getElementById("outEntrada");
-    let outParcela = document.getElementById("outParcela");
+// Referência dos elementos HTML
+const frm = document.querySelector("form");
+const outVeiculo = document.querySelector("#outVeiculo")
+const outEntrada = document.querySelector("#outEntrada")
+const outParcela = document.querySelector("#outParcela");
 
-    // obter conteúdos dos campos de entrada.
-    let modeloVeiculo = inModeloVeiculo.value;
-    let preco = Number(inPreco.value);
+
+frm.addEventListener("submit", (e) => {
+    let modeloVeiculo = frm.inModeloVeiculo.value;
+    let preco = Number(frm.inPreco.value);
 
     // calcula o valor de entrada e parcelas
     let entrada = preco * 0.5;
     let parcela = entrada / 12;
 
     // altera o conteudo dos paragrafos
-    outVeiculo.textContent = "Promoção: " + modeloVeiculo;
-    outEntrada.textContent = "Entrada de R$: " + entrada.toFixed(2);
-    outParcela.textContent = "+ 12x de R$: " + parcela.toFixed(2);
+    outVeiculo.innerText = `Promoção:   ${modeloVeiculo}`;
+    outEntrada.innerText = `Entrada de R$: ${entrada.toFixed(2)}`;
+    outParcela.innerText = `+ 12x de R$: ${parcela.toFixed(2)}`;
 
-}
+    e.preventDefault();
+})
 
-// cria uma referência ao elemento btVerPromocao (botão)
-let btVerPromocao = document.getElementById("btVerPromocao");
 
-// registra um evento associado ao botão, para carregar uma função
-btVerPromocao.addEventListener("click", mostrarPromocao);
+
+
+
+
+
