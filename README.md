@@ -5,7 +5,7 @@ Repositório destinado à exemplos e resolução dos exercícios do livro de **E
 
 - [x] Capítulo 1: Introdução
 - [x] Capítulo 2: Integração com HTML
-- [ ] Capítulo 3: Condicionais
+- [ ] Capítulo 3: Construção de algoritmos com Node.js
 ...Loading ⌛
 ## 🛠️ Tecnologias Utilizadas
 
