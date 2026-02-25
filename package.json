@@ -1,0 +1,24 @@
+{
+  "name": "logica_programacao_e-_algoritmos_com_js_edecio_fernando_iepsen",
+  "version": "1.0.0",
+  "description": "Repositório destinado à exemplos e resolução dos exercícios do livro de **Edécio Fernando Iepsen**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myurik/logica-programacao-js-iepsen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/myurik/logica-programacao-js-iepsen/issues"
+  },
+  "homepage": "https://github.com/myurik/logica-programacao-js-iepsen#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
